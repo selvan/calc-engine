@@ -1,0 +1,27 @@
+{
+  "name": "calc-engine",
+  "version": "0.0.2",
+  "description": "Virtual calc engine",
+  "repository": "https://www.github.com/selvan/calc-engine.git",
+  "main": "dist/npm_bundle.js",
+  "dependencies": {
+    "babelify": "*"
+  },
+  "devDependencies": {
+    "babel-jest": "*",
+    "browserify": "*",
+    "envify": "*",
+    "jest-cli": "*",
+    "uglify-js": "*",
+    "watchify": "*"
+  },
+  "scripts": {
+    "gen-npm-pkg": "cat lib/ethercalc/socialcalcconstants.js lib/ethercalc/socialcalc-3.js lib/ethercalc/formula1.js lib/ethercalc/formatnumber2.js lib/ethercalc/npm_export.js > dist/npm_bundle.js",
+    "test": "BABEL_JEST_STAGE=0 jest"
+  },
+  "author": "Selvan",
+  "jest": {
+    "rootDir": "./lib",
+    "scriptPreprocessor": "./../node_modules/babel-jest"
+  }
+}
