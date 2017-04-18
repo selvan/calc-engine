@@ -87,5 +87,6 @@ React native UI created on top of virtual calc/excel engine
 
         set A1 layout padding:4px 4px 4px 4px;vertical-align:middle;
 
-Note:
+Credits:
+
 This virtual calc engine is based on https://ethercalc.org/
