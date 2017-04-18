@@ -3,6 +3,12 @@ Virtual calc/excel engine that runs in mobile (React native), web browser(Javasc
 
 For virtual wordprocessor engine: https://www.github.com/selvan/wordprocessor-engine
 
+## Demo 1
+![](https://github.com/selvan/calc-engine/blob/master/demo_gifs/calc_engine_demo1.gif)
+
+## Demo 2
+![](https://github.com/selvan/calc-engine/blob/master/demo_gifs/calc_engine_demo1.gif)
+
 ## Building
 
     npm run gen-npm-pkg
